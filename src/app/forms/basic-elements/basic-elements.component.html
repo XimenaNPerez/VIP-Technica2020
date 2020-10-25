@@ -101,47 +101,67 @@
   <div class="col-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">Basic form elements</h4>
+        <h4 class="card-title">Career Survey</h4>
         <p class="card-description">
-          Basic form elements
+          Help us find you a career that best matches your current stengths and interests. 
         </p>
         <form class="forms-sample">
           <div class="form-group">
-            <label for="exampleInputName1">Name</label>
-            <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+            <label for="InputSkillset">Current Skillset:</label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              Software 
+              <i class="input-helper"></i>
+            </label>
+          </div>
+          <div class="form-check">
+            <style> input {text-align: center;} </style>
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              Hardware
+              <i class="input-helper"></i>
+            </label>
+          </div>
+          <div class="form-check">
+            <style> input {text-align: center;} </style>
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              I'm still developing my skillset
+              <i class="input-helper"></i>
+            </label>
           </div>
           <div class="form-group">
-            <label for="exampleInputEmail3">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+            <label for="InputEmail3">How would you describe yourself?</label>
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Top 3 words">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword4">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Password">
+            <label for="exampleInputPassword4">Do you prefer to work inside or outside?</label>
+            <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Inside or Outside">
           </div>
           <div class="form-group">
-            <label for="exampleSelectGender">Gender</label>
+            <label for="exampleSelectGender">Where are you in your academic career?</label>
               <select class="form-control" id="exampleSelectGender">
-                <option>Male</option>
-                <option>Female</option>
+                <option>High School</option>
+                <option>Undergraduate</option>
+                <option>Graduate</option>
+                <option>Professional</option>
               </select>
             </div>
           <div class="form-group">
-            <label>File upload</label>
-            <input type="file" name="img[]" class="file-upload-default">
-            <div class="input-group col-xs-12">
-              <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
-              <span class="input-group-append">
-                <button class="file-upload-browse btn btn-gradient-primary" type="button">Upload</button>
-              </span>
-            </div>
+            <label for="exampleInputCity1">Do you think you prefer knowing how to do something or discovering new ways to approach it?</label>
+            <select class="form-control" id="SelectAnswer">
+              <option>Prefer knowing how to do something</option>
+              <option>Discovering new ways </option>
+            </select>
           </div>
           <div class="form-group">
-            <label for="exampleInputCity1">City</label>
-            <input type="text" class="form-control" id="exampleInputCity1" placeholder="Location">
-          </div>
-          <div class="form-group">
-            <label for="exampleTextarea1">Textarea</label>
-            <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+            <label for="Question2">Do you like learning new things?</label>
+            <select class="form-control" id="SelectAnswer">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
           </div>
           <button type="submit" class="btn btn-gradient-primary mr-2">Submit</button>
           <button class="btn btn-light">Cancel</button>
@@ -302,7 +322,7 @@
                 </div>
                 <div class="form-check">
                   <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" checked>
+                    <input type="checkbox" class="form-check-input" defa>
                     Checked
                     <i class="input-helper"></i>
                   </label>
